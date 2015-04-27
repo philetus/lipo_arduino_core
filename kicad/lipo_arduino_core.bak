@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "lipo_arduino_core"
-Date "27 mar 2015"
+Date "27 apr 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -158,12 +158,12 @@ $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5514EF87
-P 2200 4350
-F 0 "#PWR?" H 2200 4350 30  0001 C CNN
-F 1 "GND" H 2200 4280 30  0001 C CNN
-F 2 "" H 2200 4350 60  0000 C CNN
-F 3 "" H 2200 4350 60  0000 C CNN
-	1    2200 4350
+P 2200 4600
+F 0 "#PWR?" H 2200 4600 30  0001 C CNN
+F 1 "GND" H 2200 4530 30  0001 C CNN
+F 2 "" H 2200 4600 60  0000 C CNN
+F 3 "" H 2200 4600 60  0000 C CNN
+	1    2200 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -454,7 +454,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 4000 2200 4000
 Wire Wire Line
-	2200 4000 2200 4350
+	2200 4000 2200 4600
 Connection ~ 2200 4150
 Wire Wire Line
 	2100 4150 2200 4150
@@ -731,4 +731,14 @@ Wire Wire Line
 Connection ~ 5500 1350
 Wire Wire Line
 	5500 1350 5500 1700
+Connection ~ 2200 4500
+Wire Wire Line
+	800  3550 1000 3550
+Wire Wire Line
+	800  3550 800  4500
+Wire Wire Line
+	800  4500 2200 4500
+Connection ~ 800  3700
+Wire Wire Line
+	1000 3700 800  3700
 $EndSCHEMATC
